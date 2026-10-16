@@ -1,0 +1,27 @@
+# Arduino build cache
+build/
+*.elf
+*.bin
+*.map
+
+# Android build outputs (rebuild with phone/app/build.sh)
+*.apk
+phone/app/out/
+# NEVER commit signing keys
+*.keystore
+*.jks
+phone/app/keystore/
+
+# Python / tooling
+__pycache__/
+*.pyc
+/tmp/agvenv/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
