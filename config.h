@@ -25,7 +25,7 @@ static const char* DEVICE_NAMES[NUM_DEVICES] = {"fan", "light", "tv", "pump"};
 struct WifiNet { const char* ssid; const char* pass; };
 static const WifiNet WIFI_NETWORKS[] = {
   {"vivo T4x 5G", ""},                 // open hotspot (no password)
-  {"vivo T4x 5G", "gxtcgc599h5rb8d"},  // same name, secured variant
+  {"WIFI_NAME", "WIFI_PASSWORD"},      // same-name secured variant (fill in, keep private)
 };
 #define WIFI_NET_COUNT (sizeof(WIFI_NETWORKS) / sizeof(WIFI_NETWORKS[0]))
 #define WIFI_CONNECT_TIMEOUT_MS 12000
